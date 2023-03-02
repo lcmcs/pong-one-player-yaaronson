@@ -36,7 +36,7 @@ public class Pong extends JFrame {
         add(first, BorderLayout.NORTH);
         loadProperties();
         displayScores();
-        this.setResizable(false);
+        this.setResizable(false); //To Prof/Aharon K. - I set it so screen can not be resizeable and drew a frame around screen (to suffcie for #3 on HW)
         setSize(500,500);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
